@@ -1,0 +1,4 @@
+$query_runsss=mysqli_query($connection,$queryss); 
+$rowsss=mysqli_num_rows($query_runsss); echo '<h1>'.$rowsss.'</h1>';
+
+if ($query_runsss->num_rows > 0) 
